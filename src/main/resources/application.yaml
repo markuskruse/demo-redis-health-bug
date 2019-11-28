@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+management:
+  endpoint.health.show-details: always
+  metrics.web.server.auto-time-requests: true
